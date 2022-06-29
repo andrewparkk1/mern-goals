@@ -4,7 +4,8 @@
     "description": "Traversy Media https://www.youtube.com/watch?v=-0exw-9YJBo&t=2216s Learn The MERN Stack - Express & MongoDB Rest API",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon backend/server.js"
+        "start": "nodemon backend/server.js",
+        "client": "npm start --prefix frontend"
     },
     "keywords": [],
     "author": "",
